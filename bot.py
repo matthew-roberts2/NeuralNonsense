@@ -5,7 +5,7 @@ import numpy as np
 import random
 import re
 
-TOKEN = 'NTYzMjA4NTA3NDcwNjQzMjIw.XKV--A.rsOuJ68ZlhVrBqYVmqyAFhE5twQ'
+TOKEN = 'Oops'
 
 client = discord.Client()
 
@@ -33,16 +33,7 @@ name_gen_model, ngm_idx, ngm_char = init_name_gen_model()
 temp = 1.0
 
 intros = [
-    "Hey-o, it's {}!",
-    "Oh shit! It's {}!",
-    "Looks like the cat dragged {} in tonight!",
-    "What kind of name is {}, anyway?",
-    "The only name worse than {} is Redeject!",
-    "Give it up for {}!",
-    "{} is already Tracer!",
-    "Don't name your dog {}",
-    "Who invited {}??",
-    "{} would be a great name in my new hit single!",
+    "Hey-o, it's {}!"
 ]
 
 use_single_intro = None
